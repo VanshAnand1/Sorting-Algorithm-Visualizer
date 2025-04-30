@@ -11,7 +11,7 @@ def quicksort(arr, count=0):
     i = 0
     while i + 1 < len(arr):
         count = count + 1
-        plt.title(f"total iterations: {count}, elapsed runtime: {round(time.time() - starttime, 2)} seconds")
+        plt.title(f"iterations: {count}, elapsed runtime: {round(time.time() - starttime, 2)} seconds")
         plt.bar(x, sort)
         plt.pause(0.01)
         plt.clf()

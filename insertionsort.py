@@ -7,14 +7,14 @@ starttime = time.time()
 
 start = 2
 end = 100
-amount = 50
+amount = 500
 
 sort = np.random.randint(start, end, amount)
 x = np.arange(0, amount, 1)
 
 n = len(sort)
 for i in range(n):
-    plt.title(f"total iterations: {count}, elapsed time: {round(time.time() - starttime, 2)}")
+    plt.title(f"iterations: {count}, elapsed time: {round(time.time() - starttime, 2)}")
     plt.bar(x, sort)
     plt.pause(0.01)
     plt.clf()

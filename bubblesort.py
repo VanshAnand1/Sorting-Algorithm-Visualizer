@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 
-amount = 50
+amount = 100
 start = 2
 end = 100
 count = 0
@@ -16,7 +16,7 @@ for i in range(n):
     swapped = False
     for j in range(0, n - i - 1):
         count = count + 1
-        plt.title(f"total iterations: {count}, elapsed runtime: {round(time.time() - starttime, 2)} seconds")
+        plt.title(f"iterations: {count}, elapsed runtime: {round(time.time() - starttime, 2)} seconds")
         plt.bar(x, sort)
         plt.pause(0.01)
         plt.clf()

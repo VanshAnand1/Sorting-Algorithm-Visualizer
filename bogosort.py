@@ -4,7 +4,7 @@ import random
 import is_sorted
 import time
 
-amount = 5
+amount = 100
 start = 2
 end = 100
 count = 0
